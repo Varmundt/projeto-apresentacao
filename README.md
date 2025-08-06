@@ -9,5 +9,3 @@ Uma página simples com informações pessoais, hobbies, países que desejo visi
 
 ## Acesse o site
 [Clique aqui para acessar](https://varmundt.github.io/projeto-apresentacao/)
-
-Desenvolvido por **Mauricio Miller**
