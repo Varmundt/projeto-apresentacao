@@ -1,12 +1,23 @@
+/*PALETA DE CORES*/
+:root {
+  --cor1: rgba(255, 255, 255, 0.842);
+  --cor2: #839788;
+  --cor3: #5b507a;
+  --cor4: #5b618a;
+}
+
 body{
-    background-color: rgba(192, 183, 172, 0.815);
+    background-color: var(--cor2);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;}
 /* Estilização do Texto */
 h1{
+    margin: -8px;
+    background-color: black;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(30, 124, 51);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: var(--cor1);
     font-style:italic}
 
 #main{
@@ -17,26 +28,42 @@ h1{
 /* Estilização da Tabela */
     table{ 
     border: 4px solid black;
-    background-color: rgb(138, 136, 136);
+    background-color: var(--cor3);
     border-collapse: collapse;}
 td, th { 
     font-weight: bolder;
     font-style: oblique;
     border: 3px solid black;
     padding: 10px;}
-th{background-color: rgb(88, 88, 88);}
+th{background-color: var(--cor4);}
 
 /* Estilização da Lista */
 li{padding: 10px;}
 /* Estilização da Imagem */
 img{border-radius: 15px;}
+
 /* Estilização do Link */
-a{text-decoration: none;}
-    a:hover {
-  color: rgb(33, 185, 84);}
+#jisho{
+    color: var(--cor3);
+    text-decoration: none;}
+    #jisho:hover {
+  color: var(--cor4);}
   button{
     cursor: pointer;
     border: 1px solid black;
     outline: none; 
     font-weight: bold;
-    background-color:rgb(138, 136, 136);}
+    background-color:var(--cor4);}
+
+/* Rodapé */
+#rodape {
+    margin: -8px;
+    background-color: black;
+    text-align: center;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: var(--cor1);
+    font-style:italic}
+.rodapelink{
+    color: var(--cor3);
+    text-decoration: none;}
