@@ -1,54 +1,98 @@
 /*PALETA DE CORES*/
 :root {
-  --cor1: rgba(255, 255, 255, 0.842);
-  --cor2: #839788;
-  --cor3: #5b507a;
-  --cor4: #5b618a;
+  --cor1: #eeeeee;
+  --cor2: #aeaeae;
+  --cor3: #909090;
+  --cor4: #5c5c5c;
 }
 
 body{
-    background-color: var(--cor2);
-    font-size: 20px;
+    background-color: var(--cor3);
+    font-size: 20px; 
     font-family: Arial, Helvetica, sans-serif;}
-/* Estilização do Texto */
+
+hr{border-color: black; 
+    border-style: solid;}
+
+/* Estilização dos Textos */
+
 h1{
     margin: -8px;
     background-color: black;
-    text-align: center;
-
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     color: var(--cor1);
-    font-style:italic}
+    text-align: center; 
+    font-variant: small-caps;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;}
 
-#main{
+#main {
     text-align: justify;
     font-weight: bold;
-    font-size: 27px;}
+    font-size: 1.5em; 
+    line-height: 31px;}
 
-/* Estilização da Tabela */
+.geral {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 1px; margin-top: 35px;}
+
+#recomendaçao {
+    font-size: 1.1em;
+    text-align: center;}
+
+#mensagem {
+    background-color: rgba(255, 255, 255, 0.301); width: 400px;
+    margin: auto;
+    font-family: 'URW Chancery L, cursive';
+    font-variant: small-caps;
+    }
+
+/* Estilização da Tabela de Paises */
+
     table{ 
+    margin: auto;
+    text-align: center;
     border: 4px solid black;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     border-collapse: collapse;}
 td, th { 
     font-weight: bolder;
     font-style: oblique;
     border: 3px solid black;
     padding: 10px;}
+
 th{background-color: var(--cor4);}
 
-/* Estilização da Lista */
-li{padding: 10px;}
+/* Estilização da Lista de Hobbies */
+
+ul{
+    background-color: var(--cor2); width: 170px;
+    border: solid;
+    margin: auto;}
+
+li{
+    padding: 5px;
+    list-style-type: square;}
+
 /* Estilização da Imagem */
-img{border-radius: 15px;}
+
+#moto {
+    border-radius: 15%;
+    display: block;
+    margin: auto;}
 
 /* Estilização do Link */
-#jisho{
-    color: var(--cor3);
-    text-decoration: none;}
-    #jisho:hover {
+
+#jisho {
+    color: var(--cor1);}
+
+#jisho:hover {
   color: var(--cor4);}
-  button{
+
+/* Estilização do Botão */
+
+button{
+    display: block;
+    margin: auto; padding: 4px; width: 150px;
     cursor: pointer;
     border: 1px solid black;
     outline: none; 
@@ -56,6 +100,7 @@ img{border-radius: 15px;}
     background-color:var(--cor4);}
 
 /* Rodapé */
+
 #rodape {
     margin: -8px;
     background-color: black;
@@ -64,6 +109,9 @@ img{border-radius: 15px;}
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     color: var(--cor1);
     font-style:italic}
-.rodapelink{
+
+.rodapelink {
     color: var(--cor3);
     text-decoration: none;}
+.rodapelink:hover {
+color: var(--cor4);}

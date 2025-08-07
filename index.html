@@ -8,26 +8,32 @@
 </head>
 <body>
 
-   <!-- Biografia -->
+   <!-- Bio -->
 
-    <h1>Mauricio Miller</h1>
-    <p id=main>Prazer, me chamo Mauricio. Tenho 20 anos e moro em uma cidade do interior do Rio Grande do Sul chamada Guaíba.<br>Curso Análise e Desenvolvimento de Sistemas, falo português, inglês, alemão e japonês.<br>Sou apaixonado por carros e motos, tenho o sonho de morar no exterior e adoro aprender novos idiomas!</p>
+    <h1 id="titulo">Mauricio Miller</h1>
+    <p id=main>Prazer, me chamo Mauricio, sou um jovem de 20 anos que mora em uma cidade do interior do Rio Grande do Sul chamada Guaíba.<br>Curso Análise e Desenvolvimento de Sistemas, falo português, inglês, alemão e japonês.<br>Sou apaixonado por carros e motos, tenho o sonho de morar no exterior e ser Piloto de Corrida!<br>Adoro aprender novos idiomas e gosto bastante de jogos online.</p>
+    <hr>
+
     <!-- Mensagem Surpresa -->
 
 <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
 <p id="mensagem"></p>
 
     <!-- Hobbies -->
-    <p>Esses são meus principais hobbies e atividades favoritas do dia a dia:</p>
+
+    <p class="geral">&minus; Esses são meus principais hobbies e atividades favoritas do dia a dia:</p>
     <ul>
-    <li>Dirigir/Pilotar</li>
-    <li>Estudar Japonês</li>
-    <li>Jogar Games no Computador</li>
+    <li>Pilotar Motos</li>
+    <li>Estudar</li>
+    <li>Ouvir Músicas</li>
     </ul>
-<img src="img/zx4.jpg" alt="Pilotando Moto" width="300">
+
+<p class="geral">Imagem ilustrativa do meu maior hobby:</p>
+<img id="moto" src="img/zx4.jpg" alt="Pilotando Moto" width="300">
 
     <!-- Países de Interesse -->
-<p>Estes são alguns dos muitos países que desejo visitar um dia:</p>
+
+<p class="geral">&minus; Estes são alguns dos muitos países que desejo visitar um dia:</p>
 <table>
     <tr>
         <th>Nome</th>
@@ -46,15 +52,19 @@
         <td><img src="img/gr.png" alt="Bandeira da Alemanha" width="100"></td>
     </tr>
 </table>
+<hr>
 
   <!-- Site Favorito -->
-    <p>Aqui vai uma recomendação pessoal de Site para quem ama idiomas e tem interesse na língua japonesa:<br> <a id="jisho" href="https://jisho.org" target="_blank" rel="Dicionario Japonês Online">"Jisho.org"</a>, um dicionário online de Japonês-Inglês muito útil e completo para aprender Kanji, Gramática, Verbos e muito mais.</p>
+
+    <p id="recomendaçao">Aqui vai uma recomendação pessoal de Site para quem ama idiomas e tem interesse na língua japonesa:<br> <a id="jisho" href="https://jisho.org" target="_blank" rel="Dicionario Japonês Online">"Jisho.org"</a>, um dicionário online de Japonês-Inglês muito útil e completo para aprender Kanji, Gramática, Verbos e muito mais. Vale a pena dar uma olhada caso tenha dúvida sobre alguma palavra, garanto que não vai se arrepender!</p>
 
   <!-- Script JS-->
+
   <script src="script.js"></script>
 
 <footer>
-<p id="rodape"> Site desenvolvido por <a class="rodapelink" href="https://linktr.ee/varmundt" target="_blank" rel="Linktree do DEV">"Varmundt"</a> para um projeto da faculdade <a class="rodapelink" href="https://pt.wikipedia.org/wiki/Centro_Universit%C3%A1rio_Internacional" target="_blank" rel="Página da UNINTER na Wikipédia">UNINTER</a></p>
+
+<p id="rodape"> Site desenvolvido por <a class="rodapelink" href="https://linktr.ee/varmundt" target="_blank" rel="Linktree do DEV">"Varmundt"</a> para um projeto da faculdade <a class="rodapelink" href="https://pt.wikipedia.org/wiki/Centro_Universit%C3%A1rio_Internacional" target="_blank" rel="Página da UNINTER na Wikipédia">UNINTER</a> em 2025</p>
 </footer>
 </body>
 </html>
